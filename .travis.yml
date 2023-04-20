@@ -1,4 +1,17 @@
-# .travis.yml
+# travis.yml
+
 language: node_js
 node_js:
   - 16
+
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      node_js: lts/*
+      # Advanced: optionally overwrite your default `script` step to skip the tests
+      # script: skip
+      deploy:
+        provider: script
+        script:
+          - npx semantic-release

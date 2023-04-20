@@ -1,18 +1,24 @@
 {
   "name": "@yotsai/jstimer",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "",
   "main": "dist/index.min.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rm -rf dist/ && rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.5.0",
     "rollup": "^2.79.1",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-terser": "^7.0.2",
+    "semantic-release": "^21.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RRFish/jstimer.git"
   }
 }
