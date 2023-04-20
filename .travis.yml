@@ -16,3 +16,5 @@ jobs:
         provider: script
         script:
           - npx semantic-release
+        on:
+          branches: deploy
