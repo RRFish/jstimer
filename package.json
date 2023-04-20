@@ -1,6 +1,6 @@
 {
   "name": "@yotsai/jstimer",
-  "version": "0.0.0-development",
+  "version": "1.0.0-development",
   "description": "",
   "main": "dist/index.min.js",
   "scripts": {
