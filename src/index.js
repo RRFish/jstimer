@@ -9,4 +9,3 @@ function timer(cb, time){
 
 // 匯出函式
 module.exports = timer;
-//
